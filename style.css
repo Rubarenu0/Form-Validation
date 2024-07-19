@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right,skyblue,rgb(183, 138, 224),plum);
+}
+h1{
+    text-align: center;
+}
+form{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px 30px 30px 70px;
+    width: 20%;
+    margin-left: 550px;
+    margin-top: 50px;
+    transition: transform 0.3s,box-shadow 0.3s;
+}
+form:hover{
+    transform: translate(10px);
+    box-shadow: 0px 10px 20px rgb(76, 73, 73);
+}
+label{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+input,textarea{
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+}
+button{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: brown;
+    color: white;
+}
+input:hover{
+    background-color: bisque;
+}
+textarea:hover{
+    background-color: bisque;
+}
